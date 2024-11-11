@@ -1,0 +1,7 @@
+data_paths:
+  raw_data: ./data/raw/data_file.csv
+  processed_data: ./data/processed
+
+model_parameters:
+  model_type: "RandomForest" # Options: 'RandomForest' or 'XGBoost'
+  task: classification       # Indicate task type (classification)
